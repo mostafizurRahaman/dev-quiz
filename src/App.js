@@ -5,7 +5,6 @@ import Main from './Layout/Main';
 import Home from './components/Home/Home';
 import { getTopicsData } from './LoaderData/TopicsLoader';
 import Quizes from './components/Quizes/Quizes';
-
 function App() {
   const router = createBrowserRouter([
     {path:'/', element: <Main></Main>, children: [

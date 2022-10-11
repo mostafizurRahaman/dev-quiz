@@ -13,11 +13,13 @@ html{
   font-size: 65.5%;
 }
 body{
-  font-family: 'Oswald' , sans-serif;
+  font-family: 'Lobster' cursive;
 }
 
 h1, h2, h3, h4, h5, h6{
   font-weight: bold;
+  font-family: 'Lobster', cursive;
+letter-spacing: 0.3rem;
 }
 p{
   font-size: 1.6rem;
@@ -25,6 +27,8 @@ p{
 a{
   text-decoration: none;
   font-size: 1.6rem;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 0.2rem;
 }
 
 .container{

@@ -1,0 +1,26 @@
+.question{
+      width: 90%;
+      padding: 2rem;
+      height: auto;
+      box-shadow:1px 1px 14px rgba(221, 221, 221, 0.802);
+      border-radius: 1.5rem;
+      -webkit-border-radius: 1.5rem;
+      -moz-border-radius: 1.5rem;
+      -ms-border-radius: 1.5rem;
+      -o-border-radius: 1.5rem;
+      color: white;
+      background: rgba(5, 5, 5, 0.8);
+}
+
+.question h3{
+      font-size: 1.8rem;
+      margin: 1rem 0;
+      color: rgb(255, 111, 0); 
+      text-shadow: 1px 1px #000;
+}
+   
+.options-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+}
