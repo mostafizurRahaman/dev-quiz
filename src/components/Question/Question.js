@@ -9,7 +9,7 @@ const Question = ({ques,serial, handleCurrentAns}) => {
 
    return (
       <div className='question'>
-         <h3>{serial+1}:- <span>{question}</span></h3>
+         <h3>Quiz {serial+1}:- <span>{question}</span></h3>
          <FaEye className='eye-icon' onClick={()=> setShow(!show)}></FaEye>
          <div className='options-container'>
             {

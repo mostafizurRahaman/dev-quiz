@@ -1,0 +1,51 @@
+.error-page{
+   background: rgba(0, 0, 0, 0.603);
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1.5rem;
+   padding: 2rem;
+}
+
+.error-page h1{
+   font-size: 10rem;   
+   color: white;
+   text-shadow: 0.2rem 0.2rem  rgb(255, 132, 0);
+}
+.error-page h2{
+   font-size: 5rem;
+   color: white;
+   text-shadow: 0.2rem 0.2rem  rgb(255, 132, 0);
+}
+.error-page button{
+   background: orange;
+   padding: 1rem 2rem;
+   margin-top: 2rem;
+   font-weight: bold;
+   font-family: 'Lobster', cursive;
+   font-size: 2rem;
+   border: none;
+   border-radius: 2rem;
+   -webkit-border-radius: 2rem;
+   -moz-border-radius: 2rem;
+   -ms-border-radius: 2rem;
+   -o-border-radius: 2rem;
+   cursor: pointer;
+}
+.error-page  .error-details { 
+   width: 50%;
+   text-align: center;
+}
+
+.error-page .error-image { 
+   width: 50%; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.error-page .error-image img{ 
+   width: 80%; 
+}
