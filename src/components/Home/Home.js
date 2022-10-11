@@ -7,7 +7,7 @@ const Home = () => {
    const topics = useLoaderData(); 
    return (
       <>
-      {/* <Header></Header> */}
+      <Header></Header>
       <div className='container'>
         <div className='topics-container'>
                {
