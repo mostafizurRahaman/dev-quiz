@@ -1,0 +1,47 @@
+.menu-bar {
+   background: linear-gradient(
+      90deg,
+      rgb(250, 109, 0, 0.8),
+      rgb(250, 109, 0, 0.7)
+   );
+   padding: 0.5rem 5rem;
+   height: 8rem;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+}
+
+.menu-bar h1 {
+   color: #fff;
+   font-size: 3rem;
+   text-transform: capitalize;
+   font-style: italic;
+   font-family: 'Lobster', cursive;
+   letter-spacing: 0.2rem;
+}
+.menu-bar .menu{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      letter-spacing: 0.1rem;
+}
+.menu-bar .menu a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   text-transform: capitalize;
+   font-size: 1.8rem;
+   transition: 0.5s all ease;
+   -webkit-transition: 0.5s all ease;
+   -moz-transition: 0.5s all ease;
+   -ms-transition: 0.5s all ease;
+   -o-transition: 0.5s all ease;
+   text-transform: uppercase;
+}
+.menu-bar .menu a:hover{
+      font-size: 1.7rem;
+      color: rgb(0, 0, 0);
+      font-weight: 400;
+}

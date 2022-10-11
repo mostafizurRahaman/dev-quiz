@@ -1,0 +1,122 @@
+.topics{
+   background: rgb(247, 128, 0, 0.8);
+   box-shadow: 0.1rem 0.1rem 1.4rem #ddd;
+   padding: 1rem;
+   z-index: 1;
+   position: relative;
+   border-radius: 1.5rem;
+   -webkit-border-radius: 1.5rem;
+   -moz-border-radius: 1.5rem;
+   -ms-border-radius: 1.5rem;
+   -o-border-radius: 1.5rem;
+   font-weight: bold;
+   transition: 1s all ease-in;
+   -webkit-transition: 1s all ease-in;
+   -moz-transition: 1s all ease-in;
+   -ms-transition: 1s all ease-in;
+   -o-transition: 1s all ease-in;
+   font-family: 'Lobster', cursive;
+   letter-spacing: 0.2rem;
+   overflow: hidden;
+
+}
+
+
+.topics img{
+  width: 100%;
+  transition: 1s all ease;
+  -webkit-transition: 1s all ease;
+  -moz-transition: 1s all ease;
+  -ms-transition: 1s all ease;
+  -o-transition: 1s all ease;
+}
+.topics:hover img{
+   transform: rotate(360deg) scale(0.5);
+   -webkit-transform: rotate(360deg) scale(0.5);
+   -moz-transform: rotate(360deg) scale(0.5);
+   -ms-transform: rotate(360deg) scale(0.5);
+   -o-transform: rotate(360deg) scale(0.5);
+}
+
+
+.topics-details-container{
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   height: 10rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 1.5rem;
+   -webkit-border-radius: 1.5rem;
+   -moz-border-radius: 1.5rem;
+   -ms-border-radius: 1.5rem;
+   -o-border-radius: 1.5rem;   
+   transition: 1s all ease-in;
+   background: rgba(40, 40, 40, 0.84);
+   
+  
+} 
+
+.topics:hover .topics-details-container{
+   background: rgba(249, 100, 0, 0.84);
+   height: 100%;  
+}
+
+
+.topics-details-container .topics-details{
+   /* opacity: 0; */
+   transition: 0.5s all ease;
+   transition-duration: 0.2s;
+   -webkit-transition: 0.5s all ease;
+   -moz-transition: 0.5s all ease;
+   -ms-transition: 0.5s all ease;
+   -o-transition: 0.5s all ease;
+   color: white;
+   text-align: center;
+}
+.topics:hover .topics-details-container .topics-details{
+   opacity: 1;
+}
+
+.topics-details h3{
+   font-size:2rem;
+   text-transform: capitalize;
+}
+
+.topics-details h4{
+   font-size: 1.4rem;
+   margin: 0.5rem 0rem;
+}
+.topics-details button{
+   padding: 0.8rem 2rem;
+   font-size: 1.6rem;
+   font-weight: bold;
+   background: black;
+   color: white;
+   border-radius: 1.5rem;
+   -webkit-border-radius: 1.5rem;
+   -moz-border-radius: 1.5rem;
+   -ms-border-radius: 1.5rem;
+   -o-border-radius: 1.5rem;
+   display: none;
+   font-family: 'Lobster', cursive;
+   letter-spacing: 0.2rem;
+   border: none;
+}
+.topics:hover .topics-details-container .topics-details button{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  
+}
+
+.topics-details button:hover{
+   color: rgb(0, 0, 0);
+   background:white ;
+   
+}

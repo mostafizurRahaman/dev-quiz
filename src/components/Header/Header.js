@@ -1,17 +1,21 @@
 import React from "react";
-import './Header.css'; 
-import { NavLink } from "react-router-dom";
-
+import { RiArrowDownSLine } from "react-icons/ri";
+import quizImg from '../../img/quiz.png'
+import "./Header.css";
 const Header = () => {
    return (
-      <nav className="menu-bar">
-         <NavLink to="/home"><h1>DevQuiz</h1></NavLink>
-         <div className="menu">
-            <NavLink to="/topics">Topics</NavLink>
-            <NavLink to="/statustic">Statustic</NavLink>
-            <NavLink to="/blog">Blog</NavLink>
+      <div className="header">
+         <div className="container">
+            <div className="header-details">
+               <h2>Dev Quiz</h2>
+               <h4>Test Your Knowledge about Development</h4>
+               <RiArrowDownSLine className="header-icon"></RiArrowDownSLine>
+            </div>
+            <div className="header-img">
+                  <img src={quizImg} alt="" />
+            </div>
          </div>
-      </nav>
+      </div>
    );
 };
 

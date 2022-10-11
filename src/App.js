@@ -3,13 +3,14 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './Layout/Main';
 import Home from './components/Home/Home';
+import { getTopicsData } from './LoaderData/TopicsLoader';
 
 function App() {
   const router = createBrowserRouter([
     {path:'/', element: <Main></Main>, children: [
-      {path: "/", element: <Home></Home>}, 
-      {path: "/home", element: <Home></Home>}, 
-      {path: "/topics" ,element: <Home></Home>}, 
+      {path: "/",loader:getTopicsData , element: <Home></Home>}, 
+      {path: "/home",loader: getTopicsData, element: <Home></Home>}, 
+      {path: "/topics",loader: getTopicsData, element: <Home></Home>}, 
     ]}
   ])
   return (
