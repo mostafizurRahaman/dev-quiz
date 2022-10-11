@@ -5,3 +5,4 @@ export const getTopicsData = async() => {
       console.log(topic); 
       return topic; 
 }
+
