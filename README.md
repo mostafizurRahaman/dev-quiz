@@ -10,11 +10,13 @@ Also read some blogs about web design and develepment.
 
 ## Included Technologies:
 
-**1. React For Fontend Development : React is a Javascript Library.** **2.
-JavaScipt: Java is used for functionalities.** **3. HMTL: Used for markup** **4.
-CSS: For Styling and design layout** **5. React Router Dom : To Setup route**
-**6. React Icons: For get usefull icons** **7. React Toastifyer: For notifying
-or send to to user**
+#### **1. React For Fontend Development : React is a Javascript Library.**
+
+#### **2.JavaScipt: Java is used for functionalities.** **3. HMTL: Used for markup**
+
+#### **4. CSS: For Styling and design layout** **5. React Router Dom : To Setup route**
+
+#### **6. React Icons: For get usefull icons** **7. React Toastifyer: For notifying or send to to user**
 
 ## Features of the website:
 
