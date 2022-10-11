@@ -1,0 +1,10 @@
+.statustic-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 50rem;
+   font-family: 'Lobster', cursive;
+   font-size: 1.6rem;
+   text-transform: capitalize;
+   font-weight: 700;
+}
