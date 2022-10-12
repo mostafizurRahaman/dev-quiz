@@ -16,6 +16,7 @@
    padding: 0rem  2.5rem;
    font-family: 'Lobster', cursive; 
    text-align: center;
+   z-index: -99;
    
 }
 .header-details h2{
@@ -90,4 +91,14 @@
    -ms-transform: rotate(30deg);
    -o-transform: rotate(30deg);
 }
+}
+
+@media screen  and (min-width: 0px) and (max-width: 578px){
+   .header .container{
+         flex-direction: column;
+         padding: 1rem  0.5rem;
+   }
+   .header-img img{
+      width: 100%;
+   }
 }

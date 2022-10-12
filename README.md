@@ -10,20 +10,18 @@ Also read some blogs about web design and develepment.
 
 ## Included Technologies:
 
-#### **1. React For Fontend Development : React is a Javascript Library.**
-
-#### **2.JavaScipt: Java is used for functionalities.** **3. HMTL: Used for markup**
-
-#### **4. CSS: For Styling and design layout** **5. React Router Dom : To Setup route**
-
-#### **6. React Icons: For get usefull icons** **7. React Toastifyer: For notifying or send to to user**
+-  #### React For FontEnd Development : React is a Javascript Library.
+-  #### JavaScript: Java is used for functionalities.
+-  #### HMTL: Used for markup
+-  #### CSS: For Styling and design layout
+-  #### React Router Dom : To Setup route
+-  #### React Icons: For get useful icons
+-  #### React Toastifier : For notifying or send to to user
+-  #### Recharts : For creating charts on statistics. 
 
 ## Features of the website:
 
-#### Quiz: The website is developed as a quiz website. In this webiste , you can see many quizes about React , HTML , CSS, JavaScript, Github etc.
-
-#### Blog: The website also contains a blog pages for posting blog about programming language.
-
-#### Statustics: You can here an statustic page for showing number of quizes different types of technologies.
-
-#### Navbar : To Navigate One Route to Another Route.
+-  #### [Quiz](https://devquizbd.netlify.app/): The website is developed as a quiz website. In this webiste , you can see many quizes about React HTML , CSS, JavaScript, Github etc.
+-  #### [Blog](https://devquizbd.netlify.app/blog): The website also contains a blog pages for posting blog about programming language.
+-  #### [statistic](https://devquizbd.netlify.app/statistic): You can here an statustic page for showing number of quizes different types of technologies.
+-  #### Navbar : To Navigate One Route to Another Route.

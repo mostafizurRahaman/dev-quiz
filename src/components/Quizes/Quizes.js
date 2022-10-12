@@ -12,7 +12,7 @@ const Quizes = () => {
    const {logo, name, questions, total } = quizes;
    const [correct, setCorrect] = useState(0); 
    const notify = () => {
-      toast.warn('🦄 Wow so easy!', {
+      toast.warn(' 😢 Wrong Ans ', {
          position: "top-right",
          autoClose: 5000,
          hideProgressBar: false,
@@ -25,9 +25,11 @@ const Quizes = () => {
          });
    }
    const handleCurrentAns = (currentAns, event) => {
-            const SelectedAns = event.target.innerText; 
-         if(currentAns.toLowerCase() === SelectedAns.toLowerCase()){
-             toast.success('🦄 Wow so easy!', {
+            const SelectedAns = event.target.innerText;
+            const Ans1 = SelectedAns.replace(/ /g, '');
+            const Ans2 = currentAns.replace(/ /g, ''); 
+         if(Ans1 === Ans2){
+             toast.success(' 🙂 Correct Ans!', {
                position: "top-right",
                autoClose: 5000,
                hideProgressBar: false,
@@ -43,8 +45,8 @@ const Quizes = () => {
             notify();
          }
          
-         console.log(SelectedAns); 
-         console.log(currentAns); 
+         console.log(Ans1); 
+         console.log(Ans2); 
    }
    return (
       <div className='quiz-container'>

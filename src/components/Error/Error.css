@@ -47,5 +47,33 @@
    
 }
 .error-page .error-image img{ 
-   width: 80%; 
+   width: 100%; 
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 578px) {
+   
+   .error-page{
+      flex-direction: column-reverse;
+      width: 100%!important;
+   }
+   .error-page h1{
+      font-size: 5rem;   
+   }
+   .error-page h2{
+      font-size:3rem;   
+   }
+
+}
+
+@media screen and (min-width: 579px) and (max-width: 920px) {
+   
+   .error-page{
+     flex-direction: column;
+     gap:0rem;
+   }
+   .error-image, .error-details{
+      width: 100%!important;
+   }
+   
 }

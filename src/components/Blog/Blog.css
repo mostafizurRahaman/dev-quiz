@@ -1,0 +1,33 @@
+
+details{
+   font-family: "Lobster", cursive;
+   letter-spacing: 0.3rem;
+}
+
+.blog-container summary{
+   font-size: 2rem;
+   font-size: 2rem;
+   background: rgb(255, 153, 0);
+   padding: 0.5rem 1rem;
+   margin-top: 1rem;
+   font-weight: bold;
+   color:white;
+}
+
+.blog-details{
+   background: rgb(84, 84, 84);
+   padding: 1rem;
+   font-size: 1.8rem;
+   border-radius: 1px;
+   -webkit-border-radius: 1px;
+   -moz-border-radius: 1px;
+   -ms-border-radius: 1px;
+   -o-border-radius: 1px;
+   color: white;
+}
+.blog-details ul li{
+   list-style: none;
+   margin-top: 1rem ;   
+}
+
+

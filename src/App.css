@@ -14,12 +14,13 @@ html{
 }
 body{
   font-family: 'Lobster' cursive;
+  max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6{
   font-weight: bold;
   font-family: 'Lobster', cursive;
-letter-spacing: 0.3rem;
+  letter-spacing: 0.3rem;
 }
 p{
   font-size: 1.6rem;
@@ -31,7 +32,28 @@ a{
   letter-spacing: 0.2rem;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
 .container{
-  width: 90%; 
-  margin:  0 auto;
+  width: 95%;
+  margin: 0 auto; 
+}
+
+@media screen and (min-width: 0px) and (max-width: 578px) {
+    html,body{
+      font-size: 50%;
+    }
+    .container{
+        width:90%; 
+    }
+}
+@media screen and (min-width: 579px) and (max-width: 920px) {
+    html,body{
+      font-size: 67%;
+    }
+    .container{
+        width:90%; 
+    }
 }
